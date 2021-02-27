@@ -1,0 +1,24 @@
+/**************************************************************************
+ToDo:
+
+ **************************************************************************/
+#include "Arduino.h"
+#include <SoftwareSerial.h>
+
+
+// The serial connection to the GPS module
+SoftwareSerial ss;
+
+void setup(){
+  Serial.begin(115200);
+  ss.begin(9600, SWSERIAL_8N1, 4);
+//void begin(uint32_t baud, SoftwareSerialConfig config, int8_t rxPin) {
+}
+
+void loop(){
+  while (ss.available() > 0){
+    // get the byte data from the GPS
+    byte gpsData = ss.read();
+    Serial.write(gpsData);
+  }
+}

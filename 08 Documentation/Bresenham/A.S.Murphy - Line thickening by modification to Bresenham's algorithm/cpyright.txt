@@ -1,0 +1,13 @@
+Copyright notice.
+
+These pages are copied from:
+
+'Line Thickening by Modification to Bresenham's Algorithm', A S Murphy
+first published in the IBM Technical Disclosure Bulletin
+Vol.20 No.12 May 1978 pages 5358-5366. 
+
+This document is copyright IBM Corporation 1978, but 
+IBM have kindly granted their permission to reproduce the article here.
+
+Alan Murphy.
+

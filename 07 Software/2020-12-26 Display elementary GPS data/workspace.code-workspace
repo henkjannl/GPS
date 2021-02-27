@@ -1,0 +1,48 @@
+{
+	"folders": [
+		{
+			"path": "..\\2020-12-24c Test GPS"
+		},
+		{
+			"name": "2020-12-24d Test SDcard",
+			"path": "..\\2020-12-24d Test SDcard"
+		},
+		{
+			"path": "..\\2020-12-25b SD Card - different library"
+		},
+		{
+			"name": "2020-12-25c Test SD Card M5stack",
+			"path": "..\\2020-12-25c Test SD Card M5stack"
+		},
+		{
+			"name": "2020-12-24b Test 320x240 TFT and touch",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"array": "cpp",
+			"*.tcc": "cpp",
+			"deque": "cpp",
+			"string": "cpp",
+			"unordered_map": "cpp",
+			"unordered_set": "cpp",
+			"vector": "cpp",
+			"memory": "cpp",
+			"random": "cpp",
+			"initializer_list": "cpp"
+		}
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Python: Current File",
+				"type": "python",
+				"request": "launch",
+				"program": "${file}",
+				"console": "integratedTerminal"
+			}
+		]
+	}
+}
